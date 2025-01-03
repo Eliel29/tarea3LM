@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Noticias y Actualizaciones</title>
+    <link>file:///C:/Users/alcaz/OneDrive/Escritorio/tarea%20LM02/index.html</link>
+    <description>Actualizaciones de la web personal y la ciudad</description>
+    <language>es</language>
+
+    <!-- Item 1: Enlace a la web de mi ciudad/pueblo -->
+    <item>
+      <title>Oficina de Turismo - Tu Ciudad</title>
+      <link>https://valdeganga.es/</link>
+      <description>Visita la página oficial de la oficina de turismo de tu ciudad</description>
+      <pubDate>Wed, 02 Jan 2025 10:00:00 +0000</pubDate>
+      <guid>https://www.valdeganga.com</guid>
+    </item>
+
+    <!-- Item 2: Enlace a la página con mis datos personales -->
+    <item>
+      <title>Inés Alcázar - Datos Personales</title>
+      <link>file:///C:/Users/alcaz/OneDrive/Escritorio/tarea%20LM02/personal.html</link>
+      <description>Página con mis datos personales</description>
+      <pubDate>Wed, 02 Jan 2025 10:00:00 +0000</pubDate>
+      <guid>file:///C:/Users/alcaz/OneDrive/Escritorio/tarea%20LM02/personal.html</guid>
+    </item>
+
+  </channel>
+</rss>

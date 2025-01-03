@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATOS</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Curso 2024-2025 enseñanzas virtuales</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="personal.html">Datos Personales</a></li>
+            <li><a href="datos.html">Formulario</a></li>
+        </ul>
+    </nav>
+    <div id="contenido">
+        <section id="principal">
+            <form name="MiFormulario" action="procesamiento.php" method="get">
+                Descripción de mis aficiones o trabajo <br><textarea name="aficiones"></textarea>
+                <br>
+                <label for="opcion1">He escrito sobre aficiones</label>
+                <input type="radio" id="opcion1" name="opciones" value="opcion1">
+
+                <label for="opcion2">He escrito sobre trabajo</label>
+                <input type="radio" id="opcion2" name="opciones" value="opcion2">
+                <br>
+                Me gustaría recibir información sobre este tema<input type="checkbox" name="verificación1" checked>
+                Acepto y he leído todos los terminos y condiciones<input type="checkbox" name="verificación2" checked>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy;2025 Inés Alcázar. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
